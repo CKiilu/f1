@@ -31,10 +31,10 @@
 <body>
     <!--    Navigation menu   -->
     <nav class="menu csscolumns">
-        <li class="menu-li"><a href="#home">HOME</a></li>
-        <li class="menu-li"><a href="#about">ABOUT</a></li>
-        <li class="menu-li"><a href="#contacts">CONTACTS</a></li>
-        <li class="menu-li"><a href="location">LOCATION</a></li>
+        <li><a href="#home" class="smoothScroll">HOME</a></li>
+        <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+        <li><a href="#contacts" class="smoothScroll">CONTACTS</a></li>
+        <li><a href="location" class="smoothScroll">LOCATION</a></li>
     </nav>
     <!--    Home section-->
     <section id="home">
@@ -55,7 +55,7 @@
 			</span>
 		</h1>
             <a href="#about" class="smoothScroll">About</a>
-            <a href="#order" class="smoothScroll">Order</a>
+            <a href="#order" class="smoothScroll">Menu>
             <a href="#contact" class="smoothScroll">contact</a>
         </section>
     </section>
@@ -106,20 +106,10 @@
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>
     <script src="js/smoothscroll.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
     <!-- Resource jQuery -->
     <!--    Location-->
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('location'), {
-                zoom: 8,
-                center: {
-                    lat: 52.2266645,
-                    lng: 20.9678908
-                }
-            });
-        }
-
-    </script>
 </body>
 
 </html>
