@@ -47,6 +47,19 @@ a {
     background-repeat: no-repeat;
 }
 
+/*Menu section*/
+
+#order {
+    background-image: url(http://www.icytales.com/wp-content/uploads/2016/01/bur.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-weight: 800;
+}
+#order li {
+    list-style-type: none;
+}
+
 /*About*/
 
 #about {
@@ -64,6 +77,7 @@ a {
     width: 100%;
     opacity: 0.5;
     padding: 20%;
+    font-weight: 800;
 }
 
 /*Location*/
