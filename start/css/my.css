@@ -25,6 +25,10 @@ h6 {
 .menu-li {
     display: inline-block;
 }
+.menu {
+    position: relative;
+    bottom: 0;
+}
 
 /*Links*/
 
