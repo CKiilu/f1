@@ -46,6 +46,25 @@ a {
     background-repeat: no-repeat;
 }
 
+/*About*/
+
+#about {
+    display: inline-block;
+    background-image: url(https://irs2.4sqi.net/img/general/width960/51409688_YceBKkmcJKq-P4OfGSi-BX4fpPBaCvh6xRSOkn20y80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+#about-txt {
+    background-color: #AA7A4C;
+    height: inherit;
+    position: absolute;
+    width: 100%;
+    opacity: 0.5;
+    padding: 20%;
+}
+
 /*Location*/
 
 #location {
