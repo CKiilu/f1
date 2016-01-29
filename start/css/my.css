@@ -4,6 +4,7 @@ body {}
 .sub-sec {
     height: 100vh;
     width: 100vw;
+    font-size: 1.2em;
 }
 
 /*Font styles*/
@@ -52,7 +53,7 @@ a {
     display: inline-block;
     background-image: url(https://irs2.4sqi.net/img/general/width960/51409688_YceBKkmcJKq-P4OfGSi-BX4fpPBaCvh6xRSOkn20y80.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100%;
     height: 100%;
     position: relative;
 }
