@@ -2,7 +2,6 @@
 
 body {}
 .sub-sec {
-    height: 100vh;
     width: 100vw;
     font-size: 1.2em;
 }
@@ -23,12 +22,20 @@ h6 {
 
 /*Menu bar*/
 
-.menu-li {
-    display: inline-block;
+#menu-container {
+    z-index: 99999999;
 }
-.menu {
-    position: relative;
-    bottom: 0;
+#nav-menu {
+    margin: 35vh auto;
+    position: fixed;
+    z-index: 99999999;
+    width: 30vw;
+}
+#nav-menu li {
+    list-style-type: none;
+    border: solid 2px #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 }
 
 /*Links*/
@@ -50,34 +57,53 @@ a {
 /*Menu section*/
 
 #order {
-    background-image: url(http://www.icytales.com/wp-content/uploads/2016/01/bur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     font-weight: 800;
 }
+#food-items {
+    background-size: cover;
+}
+#drink-items {}
 #order li {
     list-style-type: none;
+}
+#overlay:hover {
+    opacity: 0.8;
+    background-color: #999;
+    height: inherit;
 }
 
 /*About*/
 
 #about {
     display: inline-block;
-    background-image: url(https://irs2.4sqi.net/img/general/width960/51409688_YceBKkmcJKq-P4OfGSi-BX4fpPBaCvh6xRSOkn20y80.jpg);
+    background-image: url(http://decoritem.com/wp-content/uploads/2015/11/Modern-Luxury-and-Residential-Interior-fast-food-restaurant-Design-ideas-3.jpg);
     background-repeat: no-repeat;
     background-size: 100vw 100%;
     height: 100%;
-    position: relative;
+}
+#about h2,
+h3,
+li {
+    color: #000;
+    font-weight: 800;
 }
 #about-txt {
-    background-color: #AA7A4C;
     height: inherit;
     position: absolute;
     width: 100%;
-    opacity: 0.5;
-    padding: 20%;
-    font-weight: 800;
+    opacity: 0.7;
+    background-color: #624327;
+}
+
+/*Contact*/
+
+#contact {
+    background-image: url(http://www.tbo.com/storyimage/TB/20151018/ARTICLE/151019271/EP/1/1/EP-151019271.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 /*Location*/

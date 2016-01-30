@@ -32,12 +32,22 @@
 
 <body class=" text-center">
     <!--    Navigation menu   -->
-    <ul class="menu csscolumns">
-        <li><a href="#home" class="smoothScroll">HOME</a></li>
-        <li><a href="#about" class="smoothScroll">ABOUT</a></li>
-        <li><a href="#contacts" class="smoothScroll">CONTACTS</a></li>
-        <li><a href="location" class="smoothScroll">LOCATION</a></li>
-    </ul>
+    <div class="column small-6" id="menu-container">
+        <ul id="nav-menu">
+            <a href="#home" class="smoothScroll">
+                <li>HOME</li>
+            </a>
+            <a href="#about" class="smoothScroll">
+                <li>ABOUT</li>
+            </a>
+            <a href="#contacts" class="smoothScroll">
+                <li>CONTACTS</li>
+            </a>
+            <a href="location" class="smoothScroll">
+                <li>LOCATION</li>
+            </a>
+        </ul>
+    </div>
     <!--    Home section-->
     <section id="home">
         <section class="header"></section>
@@ -78,50 +88,50 @@
         </div>
     </section>
     <section id="order" class="sub-sec row">
+        <div id="overlay">
 
-        <h2>MENU</h2>
-        <div class="column small-6">
-            <H3>FOOD</H3>
-            <ul>
-                <li>Fish and chips
-                    <br>Ksh. 150</li>
-                <li>Quarter chicken and chips
-                    <br>Ksh. 150</li>
-                <li>Half chicken and chips
-                    <br>Ksh. 150</li>
-                <li>Full chicken and chips
-                    <br>Ksh. 150</li>
-                <li>Chicken burger and chips
-                    <br>Ksh. 150</li>
-                <li>Beef burger and chips
-                    <br>Ksh. 150</li>
-                <li>Lamb burger and chips
-                    <br>Ksh. 150</li>
-            </ul>
-        </div>
-        <div class="column small-6">
-            <H3>DRINKS</H3>
-            <ul>
-                <li>300 ml Soda
-                    <br>Ksh. 150</li>
-                <li>500 ml soda
-                    <br>Ksh. 150</li>
-                <li>1 l soda
-                    <br>Ksh. 150</li>
-                <li>Red bull
-                    <br>Ksh. 150</li>
-                <li>Shark
-                    <br>Ksh. 150</li>
-                <li>Water
-                    <br>Ksh. 150</li>
-                <li>Lemonade
-                    <br>Ksh. 150</li>
-                <li>Smoothie
-                    <br>Ksh. 150</li>
-                <li>Fruit juice
-                    <br>Ksh. 150</li>
-            </ul>
+            <h2>MENU</h2>
+            <div class="column small-6" id="food-items">
+                <H3>FOOD</H3>
+                <ul>
+                    <li>Fish and chips
+                        <br>Ksh. 150</li>
+                    <li>Quarter chicken and chips
+                        <br>Ksh. 150</li>
+                    <li>Half chicken and chips
+                        <br>Ksh. 150</li>
+                    <li>Full chicken and chips
+                        <br>Ksh. 150</li>
+                    <li>Chicken burger and chips
+                        <br>Ksh. 150</li>
+                    <li>Beef burger and chips
+                        <br>Ksh. 150</li>
+                </ul>
+            </div>
+            <div class="column small-6" id="drink-items">
+                <H3>DRINKS</H3>
+                <ul>
+                    <li>300 ml Soda
+                        <br>Ksh. 150</li>
+                    <li>500 ml soda
+                        <br>Ksh. 150</li>
+                    <li>1 l soda
+                        <br>Ksh. 150</li>
+                    <li>Red bull
+                        <br>Ksh. 150</li>
+                    <li>Shark
+                        <br>Ksh. 150</li>
+                    <li>Water
+                        <br>Ksh. 150</li>
+                    <li>Lemonade
+                        <br>Ksh. 150</li>
+                    <li>Smoothie
+                        <br>Ksh. 150</li>
+                    <li>Fruit juice
+                        <br>Ksh. 150</li>
+                </ul>
 
+            </div>
         </div>
     </section>
     <section id="contact" class="sub-sec row">
