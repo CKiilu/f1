@@ -23,13 +23,18 @@ h6 {
 /*Menu bar*/
 
 #menu-container {
-    z-index: 99999999;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 1.5em;
+}
+#menu-container h3 {
+    color: white;
+    margin-top: 10%;
 }
 #nav-menu {
-    margin: 35vh auto;
-    position: fixed;
+    margin: 15vh auto;
     z-index: 99999999;
-    width: 30vw;
+    width: 40vw;
 }
 #nav-menu li {
     list-style-type: none;
