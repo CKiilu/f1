@@ -26,6 +26,8 @@ h6 {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.9);
     font-size: 1.5em;
+    display: none;
+    position: absolute;
 }
 #menu-container h3 {
     color: white;
@@ -34,13 +36,28 @@ h6 {
 #nav-menu {
     margin: 15vh auto;
     z-index: 99999999;
-    width: 40vw;
 }
 #nav-menu li {
     list-style-type: none;
     border: solid 2px #fff;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+}
+.hover {
+    height: 10vh;
+    padding: 10px;
+    width: 100vw;
+    text-align: left;
+    background: linear-gradient(#2B1711, #000, #6E2900);
+}
+.hover img {
+    width: 5vw;
+    position: relative;
+    z-index: 100000000000;
+}
+.hover:hover {
+    position: relative;
+    display: block;
 }
 
 /*Links*/
