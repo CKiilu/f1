@@ -34,26 +34,27 @@
     <!--    Navigation menu   -->
     <div class="hover column small-12">
         <div id="head">
-            <img src="Images/512/android-drawer.png">
+            <img src="Images/512/android-drawer.png" onmouseover="toggleVisibility()">
             <span>Navigation menu</span>
         </div>
-        <div class="column small-6" id="menu-container">
-            <h3>NAVIGATION MENU</h3>
-            <ul id="nav-menu">
-                <a href="#home" class="smoothScroll">
-                    <li>HOME</li>
-                </a>
-                <a href="#about" class="smoothScroll">
-                    <li>ABOUT</li>
-                </a>
-                <a href="#contacts" class="smoothScroll">
-                    <li>CONTACTS</li>
-                </a>
-                <a href="location" class="smoothScroll">
-                    <li>LOCATION</li>
-                </a>
-            </ul>
-        </div>
+
+    </div>
+    <div class="column small-6" id="menu-container" onmouseup="toggleVisibility()">
+        <h3>NAVIGATION MENU</h3>
+        <ul id="nav-menu">
+            <a href="#home" class="smoothScroll">
+                <li>HOME</li>
+            </a>
+            <a href="#about" class="smoothScroll">
+                <li>ABOUT</li>
+            </a>
+            <a href="#contact" class="smoothScroll">
+                <li>CONTACTS</li>
+            </a>
+            <a href="#location" class="smoothScroll">
+                <li>LOCATION</li>
+            </a>
+        </ul>
     </div>
     <!--    Home section-->
     <section id="home">
@@ -154,6 +155,32 @@
             <br>hhhhhhhhhhhhhhhhhhhhhhhhhh
             <br>hhhhhhhhhhhh</p>
     </section>
+    <script>
+        function toggleVisibility() {
+            var visibility = document.getElementById('menu-container');
+            var view = visibility.style.display;
+            if (view == "none") {
+                visibility.style.display = "block";
+            } else {
+                visibility.style.display = "none";
+            }
+        }
+
+        function toggleSize() {
+            var hover = document.getElementsByClassName('size');
+            hover.style.width = "100vw";
+            hover.style.height = "100vh";
+            hover.style.zIndex = "10000000";
+        }
+
+        function returnSize() {
+            var hover = document.getElementsByClassName('size');
+            hover.style.width = "auto";
+            hover.style.height = "auto";
+            hover.style.zIndex = "0";
+        }
+
+    </script>
 
     <script src="js/jquery-2.1.1.js"></script>
     <script src="js/main.js"></script>

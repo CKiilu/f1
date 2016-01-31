@@ -33,15 +33,14 @@ h6 {
     color: white;
     margin-top: 10%;
 }
-#nav-menu {
-    margin: 15vh auto;
-    z-index: 99999999;
-}
 #nav-menu li {
     list-style-type: none;
     border: solid 2px #fff;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+}
+#nav-menu {
+    margin: 15vh auto;
 }
 .hover {
     height: 10vh;
@@ -54,10 +53,6 @@ h6 {
     width: 5vw;
     position: relative;
     z-index: 100000000000;
-}
-.hover:hover {
-    position: relative;
-    display: block;
 }
 
 /*Links*/
