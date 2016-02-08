@@ -31,31 +31,6 @@
 </head>
 
 <body class=" text-center">
-    <!--    Navigation menu   -->
-    <div class="hover column small-12">
-        <div id="head">
-            <img src="Images/512/android-drawer.png" onmouseover="toggleVisibility()">
-            <span>Navigation menu</span>
-        </div>
-
-    </div>
-    <div class="column small-6" id="menu-container" onmouseup="toggleVisibility()">
-        <h3>NAVIGATION MENU</h3>
-        <ul id="nav-menu">
-            <a href="#home" class="smoothScroll">
-                <li>HOME</li>
-            </a>
-            <a href="#about" class="smoothScroll">
-                <li>ABOUT</li>
-            </a>
-            <a href="#contact" class="smoothScroll">
-                <li>CONTACTS</li>
-            </a>
-            <a href="#location" class="smoothScroll">
-                <li>LOCATION</li>
-            </a>
-        </ul>
-    </div>
     <!--    Home section-->
     <section id="home">
         <section class="header"></section>
@@ -78,117 +53,14 @@
             <a href="#order" class="smoothScroll">Menu>
             <a href="#contact" class="smoothScroll">contact</a>
         </section>
-    </section>
-    <section id="about" class="row sub-sec">
-        <div id="about-txt" class="column small-12">
-            <h2>ENJOY THE FLAVOUR</h2>
-            <p>hhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhhhhhhhhhhhhh
-                <br>hhhhhhhhhhhh</p>
-        </div>
-    </section>
-    <section id="order" class="sub-sec row">
-        <div id="overlay">
 
-            <h2>MENU</h2>
-            <div class="column small-6" id="food-items">
-                <H3>FOOD</H3>
-                <ul>
-                    <li>Fish and chips
-                        <br>Ksh. 150</li>
-                    <li>Quarter chicken and chips
-                        <br>Ksh. 150</li>
-                    <li>Half chicken and chips
-                        <br>Ksh. 150</li>
-                    <li>Full chicken and chips
-                        <br>Ksh. 150</li>
-                    <li>Chicken burger and chips
-                        <br>Ksh. 150</li>
-                    <li>Beef burger and chips
-                        <br>Ksh. 150</li>
-                </ul>
-            </div>
-            <div class="column small-6" id="drink-items">
-                <H3>DRINKS</H3>
-                <ul>
-                    <li>300 ml Soda
-                        <br>Ksh. 150</li>
-                    <li>500 ml soda
-                        <br>Ksh. 150</li>
-                    <li>1 l soda
-                        <br>Ksh. 150</li>
-                    <li>Red bull
-                        <br>Ksh. 150</li>
-                    <li>Shark
-                        <br>Ksh. 150</li>
-                    <li>Water
-                        <br>Ksh. 150</li>
-                    <li>Lemonade
-                        <br>Ksh. 150</li>
-                    <li>Smoothie
-                        <br>Ksh. 150</li>
-                    <li>Fruit juice
-                        <br>Ksh. 150</li>
-                </ul>
+        <script src="js/jquery-2.1.1.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="sub-sec row">
-        <h2>ENJOY THE FLAVOUR</h2>
-        <p>hhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhhhhhhhhhhhhhhhh
-            <br>hhhhhhhhhhhh</p>
-    </section>
-    <script>
-        function toggleVisibility() {
-            var visibility = document.getElementById('menu-container');
-            var view = visibility.style.display;
-            if (view == "none") {
-                visibility.style.display = "block";
-            } else {
-                visibility.style.display = "none";
-            }
-        }
-
-        function toggleSize() {
-            var hover = document.getElementsByClassName('size');
-            hover.style.width = "100vw";
-            hover.style.height = "100vh";
-            hover.style.zIndex = "10000000";
-        }
-
-        function returnSize() {
-            var hover = document.getElementsByClassName('size');
-            hover.style.width = "auto";
-            hover.style.height = "auto";
-            hover.style.zIndex = "0";
-        }
-
-    </script>
-
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    <!-- Resource jQuery -->
-    <!--    Location-->
+        <!-- Resource jQuery -->
+        <!--    Location-->
 </body>
 
 </html>
