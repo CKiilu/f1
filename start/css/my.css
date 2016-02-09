@@ -1,11 +1,3 @@
-/*Body styles*/
-
-body {}
-.sub-sec {
-    width: 100vw;
-    font-size: 1.2em;
-}
-
 /*Font styles*/
 
 body {
@@ -20,10 +12,22 @@ h6 {
     font-family: 'Poiret One', cursive;
 }
 
+/*nav menu*/
+
+.icon-bar {
+    height: 80vh;
+    z-index: 100;
+    background-color: #fff;
+}
+.item {}
+.item img {
+    height: 10vh;
+}
+
 /*First page*/
 
 #home {
-    background: url('http://www.tipsycowburgerbar.com/themes/site_themes/tc2/img/rockstar_burger_redmond.jpg') fixed;
+    background: url('../Images/rockstar_burger_redmond.jpg') fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -154,6 +158,7 @@ h6 {
     color: #F9A126;
     font-size: 5em;
 }
+#location {}
 @media only screen and (max-width: 40em) {
     #home,
     #home-bg {
@@ -162,6 +167,13 @@ h6 {
     #loc-ttl {
         font-size: 3em;
     }
+}
+
+/*Contacts*/
+
+fieldset {
+    border: solid 2px #f60;
+    padding: 2%;
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
