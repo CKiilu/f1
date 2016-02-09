@@ -31,13 +31,13 @@ h6 {
     position: relative;
 }
 #home h1 {
-    color: #000;
+    color: #fff;
     font-size: 3em;
     font-weight: bolder;
     width: 60vw;
 }
 #home-bg {
-    background-color: #FF814D;
+    background-color: #000;
     opacity: 0.8;
     height: 100vh;
     padding: 1%;
@@ -48,13 +48,15 @@ h6 {
 
 /**/
 
-#about h2,
+#about h2 {
+    font-size: 5em;
+}
 #about p {
     font-size: 2.5em;
 }
 #about {
     padding: 20%;
-    background: #F26931;
+    background: linear-gradient(#000, #F9A126);
 }
 
 /*Menu hover effects*/
@@ -142,7 +144,7 @@ h6 {
     font-weight: 500;
 }
 #menu {
-    background-color: #F9A126;
+    background: #F9A126;
     padding: 10% 0;
 }
 
@@ -152,3 +154,14 @@ h6 {
     color: #F9A126;
     font-size: 5em;
 }
+@media only screen and (max-width: 40em) {
+    #home,
+    #home-bg {
+        height: auto;
+    }
+    #loc-ttl {
+        font-size: 3em;
+    }
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
