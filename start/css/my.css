@@ -45,6 +45,9 @@ h6 {
 
 /*About*/
 
+
+/**/
+
 #about h2,
 #about p {
     font-size: 2.5em;
@@ -128,4 +131,12 @@ h6 {
 }
 .overlay-fade-in:hover .button {
     transition-delay: 0.2s;
+}
+#menu img {
+    height: 40vh;
+    width: 100%;
+}
+#menu-ttl {
+    color: #31F2D5;
+    font-size: 5em;
 }
