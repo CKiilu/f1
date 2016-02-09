@@ -38,7 +38,6 @@ h6 {
     color: #fff;
     font-size: 3em;
     font-weight: bolder;
-    width: 60vw;
 }
 #home-bg {
     background-color: #000;
@@ -59,8 +58,7 @@ h6 {
     font-size: 2.5em;
 }
 #about {
-    padding: 20%;
-    background: linear-gradient(#000, #F9A126);
+    padding: 2%;
 }
 
 /*Menu hover effects*/
@@ -143,22 +141,31 @@ h6 {
     width: 100%;
 }
 #menu-ttl {
-    color: #000;
     font-size: 5em;
     font-weight: 500;
 }
 #menu {
-    background: #F9A126;
     padding: 10% 0;
+}
+
+/*About and menu bg*/
+
+#abt-mnu {
+    background: linear-gradient(#000, #F9A126);
 }
 
 /*Location*/
 
 #loc-ttl {
-    color: #F9A126;
     font-size: 5em;
 }
-#location {}
+#location {
+    background: url('../Images/eathai-food-court1.jpg');
+    background: rgba(0, 0, 0, 0.2);
+}
+#location p {
+    font-size: 2em;
+}
 @media only screen and (max-width: 40em) {
     #home,
     #home-bg {
@@ -171,9 +178,25 @@ h6 {
 
 /*Contacts*/
 
+#contact {
+    height: 70vh;
+}
+.loc-bg {
+    height: auto;
+}
 fieldset {
     border: solid 2px #f60;
     padding: 2%;
+}
+.form-bg {
+    background: none;
+    border: solid 2px #f60;
+    font-size: 1.2em;
+}
+input {
+    background: none;
+    border: solid 2px #f60;
+    font-size: 1.8em;
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
